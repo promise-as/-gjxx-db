@@ -1,3 +1,17 @@
+input[type="text"],
+select {
+  appearance: none;
+  -moz-appearance: none;
+  -webkit-appearance: none; // 去除safari浏览器的内阴影
+}
+input[type="submit"] {
+  cursor: pointer;
+  appearance: none;
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  border: none;
+}
+
 .test-box {
   width: 700px;
   margin: 0 auto;
@@ -17,6 +31,10 @@
     left: 0;
     top: 0;
     cursor: pointer;
+    img {
+      width: 100%;
+      height: 100%;
+    }
   }
   .sign-in {
     position: relative;
@@ -36,7 +54,10 @@
     input[type="submit"] {
       background-color: #ff8921;
       color: #fff;
-      cursor: pointer;
+      &.yellow{
+        background-color: #fffc00;
+        color: #503706;
+      }
     }
   }
   .vertical {
@@ -103,7 +124,58 @@
     input[type="submit"] {
       background-color: #ff8921;
       color: #fff;
-      cursor: pointer;
+    }
+  }
+}
+
+@media screen and (max-width: 750px) {
+  $browser-default-font-size: 75px !default;
+  @function pr($px) {
+    @return $px / $browser-default-font-size * 1rem;
+  }
+  .test-box {
+    width: 100%;
+  }
+  .gjxx-db {
+    .box {
+      padding: 30% 0 0 19%;
+    }
+    .sign-in {
+      padding: 2% 0 2%;
+      input {
+        height: pr(50px);
+        line-height: pr(50px);
+        border-radius: pr(4px);
+        font-size: pr(24px);
+      }
+    }
+    .vertical {
+      padding: 3% 3% 3% 57%;
+      .sign-in {
+        padding: 25% 0 3% 6%;
+        input {
+          width: 60%;
+          margin-bottom: 3%;
+        }
+        input[type="submit"] {
+          width: 28%;
+          line-height: pr(24px);
+          font-size: pr(24px);
+        }
+      }
+    }
+  }
+  .gjxx-bd {
+    .sign-in {
+      box-shadow: 0px pr(8px) pr(16px) 0px rgba(255, 133, 89, 0.42);
+      border-radius: pr(10px);
+      input {
+        height: pr(50px);
+        line-height: pr(50px);
+        font-size: pr(22px);
+        border-radius: pr(4px);
+        margin: 0 pr(2px);
+      }
     }
   }
 }
