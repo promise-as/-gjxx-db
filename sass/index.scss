@@ -54,7 +54,7 @@ input[type="submit"] {
     input[type="submit"] {
       background-color: #ff8921;
       color: #fff;
-      &.yellow{
+      &.yellow {
         background-color: #fffc00;
         color: #503706;
       }
@@ -87,11 +87,11 @@ input[type="submit"] {
 }
 
 .gjxx-bd {
+  margin: 1% 0;
   .box {
-    box-sizing: border-box;
-
     position: relative;
     padding: 35% 2% 3%;
+    box-sizing: border-box;
   }
   .bg {
     position: absolute;
@@ -100,6 +100,9 @@ input[type="submit"] {
     left: 0;
     top: 0;
     cursor: pointer;
+    img {
+      padding: 0;
+    }
   }
   .sign-in {
     background-color: #ffffff;

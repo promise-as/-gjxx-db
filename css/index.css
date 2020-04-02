@@ -4,11 +4,11 @@ input[type="submit"] { cursor: pointer; appearance: none; -moz-appearance: none;
 
 .test-box { width: 700px; margin: 0 auto; }
 
-.gjxx-db .box { -webkit-box-sizing: border-box; box-sizing: border-box; position: relative; padding: 26% 0 0 19%; }
+.gjxx-db .box { box-sizing: border-box; position: relative; padding: 26% 0 0 19%; }
 .gjxx-db .bg { position: absolute; width: 100%; height: 100%; left: 0; top: 0; cursor: pointer; }
 .gjxx-db .bg img { width: 100%; height: 100%; }
 .gjxx-db .sign-in { position: relative; padding: 2% 0 3%; }
-.gjxx-db .sign-in input { width: 30%; height: 38px; line-height: 38px; -webkit-box-sizing: border-box; box-sizing: border-box; background-color: #ffffff; border-radius: 4px; border: none; padding: 0 1em; font-size: 14px; margin-right: 2%; }
+.gjxx-db .sign-in input { width: 30%; height: 38px; line-height: 38px; box-sizing: border-box; background-color: #ffffff; border-radius: 4px; border: none; padding: 0 1em; font-size: 14px; margin-right: 2%; }
 .gjxx-db .sign-in input[type="submit"] { background-color: #ff8921; color: #fff; }
 .gjxx-db .sign-in input[type="submit"].yellow { background-color: #fffc00; color: #503706; }
 .gjxx-db .vertical { padding: 3% 3% 3% 57%; }
@@ -16,10 +16,12 @@ input[type="submit"] { cursor: pointer; appearance: none; -moz-appearance: none;
 .gjxx-db .vertical .sign-in input { width: 63%; margin-right: 0; margin-bottom: 2%; }
 .gjxx-db .vertical .sign-in input[type="submit"] { width: 25%; padding: 0 6%; line-height: 20px; position: absolute; top: 37%; right: 6%; height: 54%; white-space: normal; font-size: 16px; color: #484308; }
 
-.gjxx-bd .box { -webkit-box-sizing: border-box; box-sizing: border-box; position: relative; padding: 35% 2% 3%; }
+.gjxx-bd { margin: 1% 0; }
+.gjxx-bd .box { position: relative; padding: 35% 2% 3%; box-sizing: border-box; }
 .gjxx-bd .bg { position: absolute; width: 100%; height: 100%; left: 0; top: 0; cursor: pointer; }
-.gjxx-bd .sign-in { background-color: #ffffff; -webkit-box-shadow: 0px 8px 16px 0px rgba(255, 133, 89, 0.42); box-shadow: 0px 8px 16px 0px rgba(255, 133, 89, 0.42); border-radius: 10px; text-align: center; position: relative; padding: 3% 0; }
-.gjxx-bd .sign-in input { width: 23%; height: 48px; line-height: 48px; font-size: 14px; padding: 0 1em; -webkit-box-sizing: border-box; box-sizing: border-box; background-color: #eee; border-radius: 4px; border: none; margin: 0 2px; }
+.gjxx-bd .bg img { padding: 0; }
+.gjxx-bd .sign-in { background-color: #ffffff; box-shadow: 0px 8px 16px 0px rgba(255, 133, 89, 0.42); border-radius: 10px; text-align: center; position: relative; padding: 3% 0; }
+.gjxx-bd .sign-in input { width: 23%; height: 48px; line-height: 48px; font-size: 14px; padding: 0 1em; box-sizing: border-box; background-color: #eee; border-radius: 4px; border: none; margin: 0 2px; }
 .gjxx-bd .sign-in input[type="submit"] { background-color: #ff8921; color: #fff; }
 
 @media screen and (max-width: 750px) { .test-box { width: 100%; }
@@ -30,7 +32,7 @@ input[type="submit"] { cursor: pointer; appearance: none; -moz-appearance: none;
   .gjxx-db .vertical .sign-in { padding: 25% 0 3% 6%; }
   .gjxx-db .vertical .sign-in input { width: 60%; margin-bottom: 3%; }
   .gjxx-db .vertical .sign-in input[type="submit"] { width: 28%; line-height: 0.32rem; font-size: 0.32rem; }
-  .gjxx-bd .sign-in { -webkit-box-shadow: 0px 0.1066666667rem 0.2133333333rem 0px rgba(255, 133, 89, 0.42); box-shadow: 0px 0.1066666667rem 0.2133333333rem 0px rgba(255, 133, 89, 0.42); border-radius: 0.1333333333rem; }
+  .gjxx-bd .sign-in { box-shadow: 0px 0.1066666667rem 0.2133333333rem 0px rgba(255, 133, 89, 0.42); border-radius: 0.1333333333rem; }
   .gjxx-bd .sign-in input { height: 0.6666666667rem; line-height: 0.6666666667rem; font-size: 0.2933333333rem; border-radius: 0.0533333333rem; margin: 0 0.0266666667rem; } }
 
 /*# sourceMappingURL=index.css.map */
