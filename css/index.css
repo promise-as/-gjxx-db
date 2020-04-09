@@ -15,6 +15,9 @@ input[type="submit"] { cursor: pointer; appearance: none; -moz-appearance: none;
 .gjxx-db .vertical .sign-in { padding: 20% 0 3% 6%; }
 .gjxx-db .vertical .sign-in input { width: 63%; margin-right: 0; margin-bottom: 2%; }
 .gjxx-db .vertical .sign-in input[type="submit"] { width: 25%; padding: 0 6%; line-height: 20px; position: absolute; top: 37%; right: 6%; height: 54%; white-space: normal; font-size: 16px; color: #484308; }
+.gjxx-db .sign-in.enroll { padding: 2% 0% 3% 6%; }
+.gjxx-db .sign-in.enroll input { height: 42px; line-height: 42px; border: solid 1px #dddddd; }
+.gjxx-db .sign-in.enroll input[type="submit"] { border: none; width: 26%; background-image: linear-gradient(-56deg, #e84f31 0%, #f69f23 100%), linear-gradient(#ffffff, #ffffff); box-shadow: 0px 3px 8px 0px rgba(232, 79, 49, 0.5); border-radius: 21px; font-size: 18px; }
 
 .gjxx-bd { margin: 1% 0; }
 .gjxx-bd .box { position: relative; padding: 35% 2% 3%; box-sizing: border-box; }
@@ -32,6 +35,8 @@ input[type="submit"] { cursor: pointer; appearance: none; -moz-appearance: none;
   .gjxx-db .vertical .sign-in { padding: 25% 0 3% 6%; }
   .gjxx-db .vertical .sign-in input { width: 60%; margin-bottom: 3%; }
   .gjxx-db .vertical .sign-in input[type="submit"] { width: 28%; line-height: 0.32rem; font-size: 0.32rem; }
+  .gjxx-db .sign-in.enroll input { height: 0.7466666667rem; line-height: 0.7466666667rem; font-size: 0.3466666667rem; }
+  .gjxx-db .sign-in.enroll input[type="submit"] { width: 26%; box-shadow: 0px 0.04rem 0.1066666667rem 0px rgba(232, 79, 49, 0.5); border-radius: 0.5333333333rem; font-size: 0.3466666667rem; }
   .gjxx-bd .sign-in { box-shadow: 0px 0.1066666667rem 0.2133333333rem 0px rgba(255, 133, 89, 0.42); border-radius: 0.1333333333rem; }
   .gjxx-bd .sign-in input { height: 0.6666666667rem; line-height: 0.6666666667rem; font-size: 0.2933333333rem; border-radius: 0.0533333333rem; margin: 0 0.0266666667rem; } }
 
